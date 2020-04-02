@@ -1,0 +1,24 @@
+body {
+    background-color: #1e1e1e;
+    font-family: consolas;
+    color: #2d57a8;
+}
+
+.lightblue {
+    color: #7dc2e1;
+}
+
+#lines {
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #586773;
+}
+
+#lines ul {
+    list-style-type: none;
+}
+
+#content {
+    margin-right: 500px;
+}
