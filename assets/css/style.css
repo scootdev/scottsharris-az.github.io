@@ -8,12 +8,12 @@ body {
 
 #home h1 {
     font-family: 'Bungee Shade', cursive;
-    font-size: 10rem;
-    margin-left: 20vh;
+    font-size: 5rem;
+    margin-left: 0;
 }
 
 #home h3 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     padding-right: 5%;
 }
 
@@ -23,7 +23,7 @@ body {
 }
 
 #nav a {
-    font-size: 2.5rem;
+    font-size: 1.5rem
 }
 
 .project {
@@ -34,30 +34,50 @@ body {
 
 .imgLeft {
     position: relative;
-    right: 50px;
+    width: 300px;
+    margin-left: 7px;
 }
 
 .imgRight {
     position: relative;
-    left: 200px;
+    width: 300px;
+    margin-left: 7px;
 }
 
 .projectText {
     position: relative;
-    left: 100px;
-    bottom: 20px;
-    margin: auto 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 10px;;
+    
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 992px) {
     #home h1 {
-        font-size: 5rem;
-        margin-left: 0;
+        margin-left: 20vh;
+        font-size: 10rem;
     }
     #home h3{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
     #nav a {
-        font-size: 1.5rem
+        font-size: 2.5rem;
+    }
+    .imgLeft {
+        position: relative;
+        right: 50px;
+        width: auto;
+    }
+    
+    .imgRight {
+        position: relative;
+        left: 10px;
+        width: auto;
+        margin-left: 0;
+    }
+
+    .projectText {
+        width: 300px;
     }
 }
