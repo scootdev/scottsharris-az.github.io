@@ -1,24 +1,40 @@
 body {
-    background-color: #1e1e1e;
-    font-family: consolas;
-    color: #2d57a8;
+    background-color: #303030;
 }
 
-.lightblue {
-    color: #7dc2e1;
+#home {
+    height: auto;
 }
 
-#lines {
-    float: left;
-    margin: 0;
-    padding: 0;
-    color: #586773;
+#home h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 10rem;
+    margin-left: 20vh;
 }
 
-#lines ul {
-    list-style-type: none;
+#home h3 {
+    font-size: 2.5rem;
+    padding-right: 5%;
 }
 
-#content {
-    margin-right: 500px;
+#nav {
+    box-shadow: 0 15px 10px -2px rgba(0,0,0,.2);
+    padding-bottom: 10px;
+}
+
+#nav a {
+    font-size: 2.5rem
+}
+
+@media only screen and (max-width: 600px) {
+    #home h1 {
+        font-size: 5rem;
+        margin-left: 0;
+    }
+    #home h3{
+        font-size: 1.5rem;
+    }
+    #nav a {
+        font-size: 1.5rem
+    }
 }
