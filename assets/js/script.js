@@ -9,4 +9,20 @@ $(document).ready(function () {
         }
     };
 
+    // scrolling animation for nav links
+    $("#projectsLink").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#projects").offset().top
+        }, 1500);
+    });
+    $("#homeLink").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#home").offset().top
+        }, 1500);
+    });
+    $("#contactLink").click(function() {
+        $([document.documentElement, document.body]).animate({
+            scrollTop: $("#contact").offset().top
+        }, 1500);
+    });
 });
