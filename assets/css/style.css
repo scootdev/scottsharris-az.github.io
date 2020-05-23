@@ -1,3 +1,7 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
 body {
     background-color: #727171;
 }
@@ -57,6 +61,11 @@ body {
     box-shadow: inset 10px 15px 10px -2px rgba(0,0,0,.2);
 }
 
+#contact h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+}
+
 @media only screen and (min-width: 992px) {
     #home h1 {
         margin-left: 20vh;
@@ -83,5 +92,8 @@ body {
 
     .projectText {
         width: 300px;
+    }
+    #contact h2 {
+        margin-left: 15%;
     }
 }
