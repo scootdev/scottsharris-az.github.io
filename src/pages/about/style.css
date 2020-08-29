@@ -1,0 +1,33 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+#home {
+    height: auto;
+}
+
+body {
+    background-color: #B4C320;
+}
+
+#home h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 3.5rem;
+    margin-left: 0;
+    z-index: -10;
+}
+
+#home h3 {
+    font-size: 1.5rem;
+    padding-right: 5%;
+}
+
+@media only screen and (min-width: 992px) {
+    #home h1 {
+        margin-left: 20vh;
+        font-size: 10rem;
+    }
+    #home h3{
+        font-size: 2.5rem;
+    }
+}

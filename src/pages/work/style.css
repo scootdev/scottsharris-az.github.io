@@ -1,0 +1,74 @@
+.project img {
+    width: 300px;
+    box-shadow: 10px 15px 10px -2px rgba(0,0,0,.2);
+    display: block;
+    border: 2px solid #525252;
+    border-top: 15px solid #525252;
+    transition: width .5s, opacity 1s;
+}
+
+#work-title {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.project {
+    position: relative; 
+}
+
+.project .links {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 57%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.content {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.project:hover img {
+    opacity: 0.25;
+}
+
+.project:hover .content {
+    opacity: 1;
+}
+
+.project:hover .links {
+    opacity: 1;
+}
+
+#projects {
+    margin-bottom: 20%;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .project:hover img {
+        width: 400px;
+    }
+
+    .project .links {
+        font-size: 1.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: opacity .5s;
+    }
+
+    #work-title {
+        font-size: 5rem;
+    }
+
+    #projects {
+        margin-bottom: 0;
+    }
+}
