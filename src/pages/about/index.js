@@ -36,9 +36,7 @@ const hero = () => {
                     <p>Full stack web developer with innovative problem solving skills and a mobile-first focus. I am
                         earning a certificate in full stack development from the University of Arizona and am eager to
                         utilize my new skills to develop amazing web experiences. I am skilled in HTML, CSS and
-                        Javascript to create both front-end and back-end products. I recently worked with a team of five
-                        to create a web app that utilizes multiple API's to connect users with businesses for their
-                        needs. I am learning new skills every day creating personal projects that challenge myself and
+                        Javascript to create both front-end and back-end products including React, MongoDB and NodeJS. I am learning new skills every day creating personal projects that challenge myself and
                         am excited to leverage these new skills to help build a better web.</p>
                     <a target="_blank" href="./Scott_Harris_-_Full_Stack_Web_Developer.pdf"><button
                             class="btn btn-secondary">View my resume</button></a>
