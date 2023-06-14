@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
-import AboutMe from '@/components/AboutMe';
-import Showcase from '@/components/Showcase';
-import Contact from '@/components/Contact';
-import Navbar from '@/components/NavBar';
+import AboutMe from '../components/AboutMe';
+import Showcase from '../components/Showcase';
+import Contact from '../components/Contact';
+import Navbar from '../components/NavBar';
 
 const PageContainer = styled.div`
   max-width: 1200px;
