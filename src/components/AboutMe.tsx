@@ -32,7 +32,11 @@ const ProfileContainer = styled.div`
   margin: 0 auto 30px;
 `;
 
-const ProfileOverlay = styled.div`
+interface ProfileOverlayProps {
+  hovered: boolean;
+}
+
+const ProfileOverlay = styled.div<ProfileOverlayProps>`
   position: absolute;
   width: 200px;
   height: 200px;
@@ -204,7 +208,7 @@ const AboutMe: React.FC = () => {
         </Paragraph>
         <br />
         <Paragraph>
-          If you're searching for a versatile and dedicated developer to elevate your digital presence, I am here to help. Let's embark on an exciting journey towards achieving web development excellence. Reach out to discuss how I can contribute to your success.        </Paragraph>
+          If you&apos;re searching for a versatile and dedicated developer to elevate your digital presence, I am here to help. Let&apos;s embark on an exciting journey towards achieving web development excellence. Reach out to discuss how I can contribute to your success.        </Paragraph>
       </Segment>
     </Section>
   );

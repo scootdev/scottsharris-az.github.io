@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
         setFormData({ ...formData, [name]: value });
     };
 
-    const handleSubmit = (event) => {
+    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
     
       if (!process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_SERVICE_ID || !process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_TEMPLATE_ID || !process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_USER_ID) {
@@ -100,7 +100,7 @@ const Contact: React.FC = () => {
       const templateID = process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_TEMPLATE_ID;
       const userID = process.env.NEXT_PUBLIC_REACT_APP_EMAILJS_USER_ID;
     
-      emailjs.sendForm(serviceID, templateID, event.target, userID)
+      emailjs.sendForm(serviceID, templateID, event.currentTarget, userID)
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -109,6 +109,7 @@ const Contact: React.FC = () => {
     
       setFormData({ name: '', email: '', message: '' });
     };
+    
       
     return (
         <Section>
